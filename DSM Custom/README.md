@@ -75,11 +75,14 @@ This DSM allows you to collect everything you want to collect from Windows Firew
 
 #### QIDs :
 
-+ TODO
++ None
 
 #### Properties :
 
-+ TODO
++ `Destination IP`
++ `Destination Port`
++ `Source IP`
++ `Source Port`
 
 #### Appendix :
 
