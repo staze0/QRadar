@@ -66,7 +66,7 @@ This DSM allows you to collect everything you want to collect from iptables. You
 </p>
 </details>
 
-<details><summary>Custom Windows Firewall :calendar:</summary>
+<details><summary>Custom Windows Firewall :white_check_mark:</summary>
 <p>
 
 #### Details :
