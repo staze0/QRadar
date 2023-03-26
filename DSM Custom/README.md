@@ -36,6 +36,8 @@ Nevertheless, if you encounter any issue, you can contact me with the detail and
 
 ### DSM List :
 
+<ul>
+<li>
 <details><summary>Custom Linux iptables :white_check_mark:</summary>
 <p>
 
@@ -65,7 +67,9 @@ This DSM allows you to collect everything you want to collect from iptables. You
 
 </p>
 </details>
+</li>
 
+<li>
 <details><summary>Custom Windows Firewall :white_check_mark:</summary>
 <p>
 
@@ -90,22 +94,38 @@ This DSM allows you to collect everything you want to collect from Windows Firew
 
 </p>
 </details>
+</li>
 
+<li>
+<details><summary>Synology :calendar:</summary>
+<p>
 
-<details><summary>Custom Synology :calendar:</summary>
+<ul>
+<li>
+<details><summary>Custom Synology OpenVPN :white_check_mark:</summary>
 <p>
 
 #### Details :
 
-TODO
+This DSM allows you to parse and map event from OpenVPN server hosted on your Synology NAS. You'll be able to track connection to the VPN server and which private IP is assigned to which user.
 
 #### QIDs :
 
-+ TODO
++ `OpenVPN Authentication Failure`
++ `OpenVPN Authentication Success`
++ `OpenVPN Debug Message`
++ `OpenVPN IP Attribution`
++ `OpenVPN Session Closed`
++ `OpenVPN Session Opened`
++ `[CUSTOM] Synology OpenVPN Message`
 
 #### Properties :
 
-+ TODO
++ `Event Category`
++ `Event ID`
++ `Post NAT Source IP`
++ `Source IP`
++ `Username`
 
 #### Appendix :
 
@@ -113,3 +133,10 @@ TODO
 
 </p>
 </details>
+</li>
+</ul>
+
+</p>
+</details>
+</li>
+</ul>
