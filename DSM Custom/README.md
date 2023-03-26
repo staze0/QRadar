@@ -107,7 +107,7 @@ This DSM allows you to collect everything you want to collect from Windows Firew
 
 #### Details :
 
-This DSM allows you to parse and map event from OpenVPN server hosted on your Synology NAS. You'll be able to track connection to the VPN server and which private IP is assigned to which user.
+This DSM allows you to parse and map events from OpenVPN server hosted on your Synology NAS. You'll be able to track connection to the VPN server and which private IP is assigned to which user.
 
 #### QIDs :
 
@@ -124,6 +124,42 @@ This DSM allows you to parse and map event from OpenVPN server hosted on your Sy
 + `Event Category`
 + `Event ID`
 + `Post NAT Source IP`
++ `Source IP`
++ `Username`
+
+#### Appendix :
+
++ Article on the subject : [TBD](https://staze.fr/)
+
+</p>
+</details>
+</li>
+
+<li>
+<details><summary>Custom Synology Files :white_check_mark:</summary>
+<p>
+
+#### Details :
+
+This DSM allows you to parse and map files events from your Synology NAS. It covers differents actions such as write/read and much more. Moreover it works for multiple kinds of files management (SMB/GUI...).
+
+#### QIDs :
+
++ `File Access`
++ `File Creation`
++ `File Deletion`
++ `File Modification`
++ `File Upload`
++ `OpenVPN Session Opened`
++ `[CUSTOM] Synology Files Message`
+
+#### Properties :
+
++ `Action`
++ `Destination IP`
++ `Event Category`
++ `Event ID`
++ `Filename`
 + `Source IP`
 + `Username`
 
