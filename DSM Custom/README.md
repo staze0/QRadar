@@ -170,11 +170,12 @@ This DSM allows you to parse and map files events from your Synology NAS. It cov
 </p>
 </details>
 </li>
-</ul>
    
 <li>
 More to come for Synology technology :smile:   
 </li>
+   
+</ul>
 
 </p>
 </details>
