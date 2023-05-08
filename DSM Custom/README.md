@@ -4,11 +4,11 @@
 
 ### Presentation :
 
-You'll find custom device support module I've created.
+You'll find custom device support modules I've created.
 Be careful with using this DSM in production environment because :
 
-1. I'm and I'll not be responsible of any disruption or problem caused by one of my DSM
-2. IBM do not support the following cases :
+1. I am and I will not be responsible of any disruption or problem caused by one of my DSMs
+2. IBM does not support the following :
 
    1. Requests for assistance to write, modify, test, or tune custom log sources for administrators in the DSM Editor.
    2. QRadar Support does not validate or update regular expressions to override default event properties for custom log sources.
@@ -23,7 +23,7 @@ Nevertheless, if you encounter any issue, you can contact me with the detail and
 
 ### HowTo :
 
-+ Install the DSM, you need to have sufficient permission to do this action, if you can do one of the folloing steps contact your QRadar's administrator :
++ Install the DSM, you need to have sufficient permission to do this action, if you cannot do one of the following steps, contact your QRadar's administrator :
 
   1. Go to your QRadar extension management page (https://<QRADAR_FQDN>/console/do/qradar/extensionsManagementConsole).
   2. Click "Add"
@@ -43,7 +43,7 @@ Nevertheless, if you encounter any issue, you can contact me with the detail and
 
 #### Details :
 
-This DSM allows you to collect everything you want to collect from iptables. You'll will be able to monitor all the network flow that came in and out your server.
+This DSM allows you to collect everything you want to collect from iptables. You will be able to monitor all the network flows that come from and go towards your server.
 
 #### QIDs :
 
@@ -75,7 +75,7 @@ This DSM allows you to collect everything you want to collect from iptables. You
 
 #### Details :
 
-This DSM allows you to collect everything you want to collect from Windows Firewall. You'll will be able to monitor all the network flow that came in and out your Windows server.
+This DSM allows you to collect everything you want to collect from Windows Firewall. You will be able to monitor all the network flows that come from and go towards your Windows server.
 
 #### QIDs :
 
@@ -107,7 +107,7 @@ This DSM allows you to collect everything you want to collect from Windows Firew
 
 #### Details :
 
-This DSM allows you to parse and map events from OpenVPN server hosted on your Synology NAS. You'll be able to track connection to the VPN server and which private IP is assigned to which user.
+This DSM allows you to parse and map events from OpenVPN server hosted on your Synology NAS. You will be able to track connections to the VPN server and which private IP is assigned to which user.
 
 #### QIDs :
 
