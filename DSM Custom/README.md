@@ -63,7 +63,7 @@ This DSM allows you to collect everything you want to collect from iptables. You
 
 #### Appendix :
 
-+ Article on the subject : [TBD](https://staze.fr/)
++ Article on the subject : [Tips : Supervision du firewall Linux](https://staze.fr/tips-supervision-du-firewall-linux/)
 
 </p>
 </details>
@@ -90,7 +90,7 @@ This DSM allows you to collect everything you want to collect from Windows Firew
 
 #### Appendix :
 
-+ Article on the subject : [TBD](https://staze.fr/)
++ Article on the subject : [Tips : Supervision du firewall Windows](https://staze.fr/tips-supervision-du-firewall-windows/)
 
 </p>
 </details>
@@ -180,4 +180,53 @@ More to come for Synology technology :smile:
 </p>
 </details>
 </li>
+
+<li>
+<details><summary>Custom Teleport Bastion :white_check_mark:</summary>
+<p>
+
+#### Details :
+
+This DSM allows you to collect logs of your Teleport Bastion. It is very helpful when you want to monitor who access to which ressource and what action is taken. Because, I don't have access to the Teleport document which describe every ID of every log, you will not have an exhaustive list of events but with time I will complete with unknow events.
+
+#### QIDs :
+
++ `[Teleport] User Login Success`
++ `[Teleport] User Login Failure`
++ `[Teleport] Session Start`
++ `[Teleport] Session Closed`
++ `[Teleport] Session Closed`
++ `[Teleport] File Upload Success`
++ `[Teleport] Session Data`
++ `[Teleport] Certificate Creation Success`
++ `[Teleport] File Downloaded`
++ `[Teleport] File Uploaded`
+
+#### Properties :
+
++ `Event Category`
++ `Event ID`
++ `Log Source Time`
++ `Pre NAT Source IP`
++ `Pre NAT Source Port`
++ `Source IP`
++ `Source Port`
++ `Teleport Cluster Name`
++ `Teleport Event Name`
++ `Teleport Filename`
++ `Teleport MFA Device Name`
++ `Teleport Server Hostname`
++ `Teleport Session Start`
++ `Teleport Session Stop`
++ `Teleport User Agent`
++ `Username`
+
+#### Appendix :
+
++ Article on the subject : [TBD](https://staze.fr/)
+
+</p>
+</details>
+</li>
+
 </ul>
