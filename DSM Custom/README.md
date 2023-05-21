@@ -45,11 +45,13 @@ Nevertheless, if you encounter any issue, you can contact me with the detail and
 
 This DSM allows you to collect everything you want to collect from iptables. You will be able to monitor all the network flows that come from and go towards your server.
 
+### [File](https://github.com/staze0/QRadar/blob/main/DSM%20Custom/Custom%20Linux%20iptables.zip)
+   
 #### QIDs :
 
 + `Linux Firewall Accept`
 + `Linux Firewall Deny`
-
+   
 #### Properties :
 
 + `Destination IP`
@@ -76,6 +78,8 @@ This DSM allows you to collect everything you want to collect from iptables. You
 #### Details :
 
 This DSM allows you to collect everything you want to collect from Windows Firewall. You will be able to monitor all the network flows that come from and go towards your Windows server.
+   
+#### [File](https://github.com/staze0/QRadar/blob/main/DSM%20Custom/Microsoft%20Windows%20Security%20Event%20Log/Microsoft%20Windows%20Security%20Event%20Log%20-%20Windows%20Firewall.zip)
 
 #### QIDs :
 
@@ -109,6 +113,8 @@ This DSM allows you to collect everything you want to collect from Windows Firew
 
 This DSM allows you to parse and map events from OpenVPN server hosted on your Synology NAS. You will be able to track connections to the VPN server and which private IP is assigned to which user.
 
+#### [File](https://github.com/staze0/QRadar/blob/main/DSM%20Custom/Synology/Custom%20Synology%20OpenVPN.zip)
+   
 #### QIDs :
 
 + `OpenVPN Authentication Failure`
@@ -142,6 +148,8 @@ This DSM allows you to parse and map events from OpenVPN server hosted on your S
 #### Details :
 
 This DSM allows you to parse and map files events from your Synology NAS. It covers differents actions such as write/read and much more. Moreover it works for multiple kinds of files management (SMB/GUI...).
+   
+#### [File](https://github.com/staze0/QRadar/blob/main/DSM%20Custom/Synology/Custom%20Synology%20Files.zip)
 
 #### QIDs :
 
@@ -188,6 +196,8 @@ More to come for Synology technology :smile:
 #### Details :
 
 This DSM allows you to collect logs of your Teleport Bastion. It is very helpful when you want to monitor who access to which ressource and what action is taken. Because, I don't have access to the Teleport document which describe every ID of every log, you will not have an exhaustive list of events but with time I will complete with unknow events.
+   
+#### [File](https://github.com/staze0/QRadar/blob/main/DSM%20Custom/Custom%20Teleport%20Bastion.zip)
 
 #### QIDs :
 
@@ -236,6 +246,8 @@ This DSM allows you to collect logs of your Teleport Bastion. It is very helpful
 #### Details :
 
 This DSM allows you to map OpenSSH Server events. It covers various scenarios arround the use of OpenSSH server on a Windows machine.
+   
+#### [File](https://github.com/staze0/QRadar/blob/main/DSM%20Custom/Microsoft%20Windows%20Security%20Event%20Log/Microsoft%20Windows%20Security%20Event%20Log%20-%20OpenSSH.zip)
 
 #### QIDs :
 
