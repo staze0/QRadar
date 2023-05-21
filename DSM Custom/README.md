@@ -229,4 +229,37 @@ This DSM allows you to collect logs of your Teleport Bastion. It is very helpful
 </details>
 </li>
 
+<li>
+<details><summary>Microsoft Windows Security Event Log - OpenSSH :white_check_mark:</summary>
+<p>
+
+#### Details :
+
+This DSM allows you to map OpenSSH Server events. It covers various scenarios arround the use of OpenSSH server on a Windows machine.
+
+#### QIDs :
+
++ `OpenSSH Success Login`
++ `OpenSSH Connection Closed`
++ `OpenSSH Connection Reset`
++ `OpenSSH Connection Disconnected`
++ `OpenSSH Failed Login`
+
+#### Properties (not include in the zip file, you have to do it manually with the DSM Editor) :
+   
+| Property | Expression | Format String |
+| :--- | :--- | :---: |
+| Event ID | `Message=sshd:.*(Accepted password\|Connection closed\|Connection reset\|Disconnected from\|Failed password\|Received disconnect)` | $1 |
+| Source IP | `Message=sshd:.*\s((?:[0-9]{1,3}.){3}[0-9]{1,3}\|::1\|localhost)` | $1 |
+| Source Port | `port\s+(\d{1,5})` | $1 |
+| Username | `sshd:.for\s+(.)\s+from` | $1 |
+
+#### Appendix :
+
++ Article on the subject : [TBD](https://staze.fr/)
+
+</p>
+</details>
+</li>
+
 </ul>
