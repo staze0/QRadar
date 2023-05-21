@@ -268,7 +268,7 @@ This DSM allows you to map OpenSSH Server events. It covers various scenarios ar
 
 #### Appendix :
 
-+ Article on the subject : [TBD](https://staze.fr/)
++ Article on the subject : [Tips : Supervision d'un serveur OpenSSH Windows](https://staze.fr/tips-supervision-d-un-serveur-openssh-windows/)
 
 </p>
 </details>
