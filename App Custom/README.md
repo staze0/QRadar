@@ -6,7 +6,7 @@
 ### Presentation :
 
 You'll find custom app I've created.
-Be careful with using this DSM in production environment because :
+Be careful with using this application in production environment because :
 
 1. I am and I will not be responsible of any disruption or problem caused by one of my App
 2. IBM does not support application which are not validated
