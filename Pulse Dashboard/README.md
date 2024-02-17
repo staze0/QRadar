@@ -40,7 +40,7 @@ Nevertheless, if you encounter any issue, you can contact me with the detail and
 
 This dashboard will allow you to monitor EPS and peaks of logs in your QRadar infrastructure.
 
-#### [File-TBD](https://github.com/staze0/QRadar/)
+#### [File]([https://github.com/staze0/QRadar/](https://raw.githubusercontent.com/staze0/QRadar/main/Pulse%20Dashboard/EPS%20Monitoring.json))
 
 #### Appendix :
 
