@@ -27,3 +27,47 @@ Nevertheless, if you encounter any issue, you can contact me with the detail and
   8. Select the JSON file from the dashboard you want to import, then click Open to proceed the installation
 
 ---
+
+### Dashboard List :
+
+<ul>
+      
+<li>
+<details><summary>EPS Monitoring :white_check_mark:</summary>
+<p>
+
+#### Details :
+
+This dashboard will allow you to monitor EPS and peaks of logs in your QRadar infrastructure.
+
+#### [File-TBD](https://github.com/staze0/QRadar/)
+
+#### Appendix :
+
++ Article on the subject (english version): [HowTo #4 - Monitor EPS](https://staze.fr/)
++ Article on the subject (french version): [HowTo #4 - Monitorer les EPS](https://staze.fr/)
+
+</p>
+</details>
+</li>
+
+<li>
+<details><summary>Search Monitoring :white_check_mark:</summary>
+<p>
+
+#### Details :
+
+This dashboard will allow you to monitor searches done on your QRadar infrastructure.
+
+#### [File-TBD](https://github.com/staze0/QRadar/)
+
+#### Appendix :
+
++ Article on the subject (english version): [HowTo #10 - Monitor searches](https://staze.fr/)
++ Article on the subject (french version): [HowTo #10 - Monitorer les recherches](https://staze.fr/)
+
+</p>
+</details>
+</li>
+
+</ul>
