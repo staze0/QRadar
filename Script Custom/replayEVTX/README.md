@@ -1,4 +1,4 @@
-Installation of requierements:
+Installation of requirements:
 
 ```bash
 pip install -r requirements.txt
