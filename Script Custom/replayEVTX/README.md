@@ -30,4 +30,9 @@ options:
                         OS version to include in Snare format (default: <OS_version>)
 ```
 
+EVTX samples you may want to use:
+- https://github.com/Yamato-Security/hayabusa-sample-evtx
+- https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack
+- https://github.com/sbousseaden/evtx-attack-samples
+
 More information about this script in my QRadar's blog: https://qradar.guru
