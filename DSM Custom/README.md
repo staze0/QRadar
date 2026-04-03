@@ -274,4 +274,30 @@ This DSM allows you to map OpenSSH Server events. It covers various scenarios ar
 </details>
 </li>
 
+<li>
+<details><summary>Nginx Proxy Manager :white_check_mark:</summary>
+<p>
+
+#### Details :
+
+This DSM allows you to map Nginx Proxy Manager events.
+   
+#### [File](https://github.com/staze0/QRadar/raw/refs/heads/main/DSM%20Custom/Nginx%20Proxy%20Manager/Custom%20Nginx%20Proxy%20Manager.zip)
+
+#### QIDs :
+
+Cf. appendix
+
+#### Properties :
+   
+Cf. apendix
+
+#### Appendix :
+
++ Article on the subject : [Collect Nginx Proxy Manager logs in QRadar](https://qradar.guru/collect-nginx-proxy-manager-logs-in-qradar/)
+
+</p>
+</details>
+</li>
+
 </ul>
