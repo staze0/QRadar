@@ -1,0 +1,10 @@
+evtx
+
+# Installation commands
+# Install Python (if not already installed)
+# sudo apt update && sudo apt install python3 python3-pip -y  # (Debian/Ubuntu)
+# sudo yum install python3 python3-pip -y  # (RHEL/CentOS)
+# brew install python3  # (MacOS)
+
+# Install dependencies
+# pip install -r requirements.txt
